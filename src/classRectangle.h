@@ -30,8 +30,8 @@ class classRectangle : public classShape {
 
     public:
     ///// Getters /////
-        double getLength () ;
-        double getWidth  () ;
+        double getLength () const ;
+        double getWidth  () const ;
     ///// Getters /////
 
     public:

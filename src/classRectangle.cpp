@@ -27,13 +27,13 @@ classRectangle::classRectangle( const double newLength, const double newWidth ) 
 
 }
 
-double classRectangle::getLength() {
+double classRectangle::getLength() const {
 
     return classRectangle::length ;
 
 }
 
-double classRectangle::getWidth() {
+double classRectangle::getWidth() const {
 
     return classRectangle::width ;
 

@@ -101,6 +101,6 @@ int main() {
     cout << "    " << Square.compute_area()    << endl ;
 
 
-    return EXIT_SUCCESS ;
+    return ( EXIT_SUCCESS ) ;
 
 }
