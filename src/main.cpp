@@ -27,6 +27,7 @@ int main() {
     cout << "The area of myRectangle is: "
               << myRectangle.compute_area()
               << endl;
+
     return 0;
 
 }
