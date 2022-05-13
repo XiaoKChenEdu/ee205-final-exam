@@ -10,13 +10,23 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 
-#include <iostream>
+#include "config.h"
+#include "classSquare.h"
+
+using namespace std;
 
 
 int main() {
 
-    std::cout << "Hello, World!" << std::endl;
-
+    cout << "Hello, World!" << endl;
+    classSquare mySquare(2);
+    cout << "The area of mySquare is: "
+              << mySquare.compute_area()
+              << endl;
+    classRectangle myRectangle( 2, 4 );
+    cout << "The area of myRectangle is: "
+              << myRectangle.compute_area()
+              << endl;
     return 0;
 
 }
